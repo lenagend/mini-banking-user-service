@@ -1,14 +1,15 @@
-package controller;
+package com.example.minibankinguserservice.controller;
 
-import entity.User;
+import com.example.minibankinguserservice.entity.User;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
-import service.UserService;
+import com.example.minibankinguserservice.service.UserService;
 
 @RestController
 @RequestMapping("/users")
+@CrossOrigin
 public class UserController {
 
     @Autowired

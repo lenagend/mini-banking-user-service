@@ -1,6 +1,6 @@
-package repository;
+package com.example.minibankinguserservice.repository;
 
-import entity.User;
+import com.example.minibankinguserservice.entity.User;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 public interface UserRepository extends JpaRepository<User, Long> {

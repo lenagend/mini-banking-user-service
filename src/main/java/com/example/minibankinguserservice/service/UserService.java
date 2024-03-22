@@ -1,9 +1,9 @@
-package service;
+package com.example.minibankinguserservice.service;
 
-import entity.User;
+import com.example.minibankinguserservice.entity.User;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
-import repository.UserRepository;
+import com.example.minibankinguserservice.repository.UserRepository;
 
 @Service
 public class UserService {
